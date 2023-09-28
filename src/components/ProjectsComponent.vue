@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard.vue';
 
 export default {
     name: 'ProjectsComponent',
-    components: ProjectCard,
+    components: { ProjectCard },
     data() {
         return {
             projects: []
