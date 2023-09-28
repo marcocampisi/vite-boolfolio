@@ -18,9 +18,7 @@ export default {
 <template>
     <div id="app">
         <AppHeader :router="router"></AppHeader>
-        <router-view>
-            
-        </router-view>
+        <router-view></router-view>
     </div>
 </template>
 

@@ -24,7 +24,7 @@ export default {
 </script>
 
 <template>
-    <h1>Lista dei Progetti</h1>
+    <h1 class="text-5xl font-bold text-center my-4">Lista dei Progetti</h1>
     <div v-for="project in projects" :key="project.id">
         <ProjectCard :project="project"></ProjectCard>
     </div>

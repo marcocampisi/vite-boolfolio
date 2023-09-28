@@ -10,7 +10,7 @@ export default {
 <template>
     <AppHeader />
     <div>
-        <h1>MainComponent</h1>
+        <h1 class="text-5xl font-bold text-center my-4">Homepage</h1>
     </div>
 </template>
 
