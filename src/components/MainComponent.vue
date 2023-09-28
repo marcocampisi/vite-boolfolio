@@ -11,9 +11,6 @@ export default {
     <AppHeader />
     <div>
         <h1>MainComponent</h1>
-        <router-view>
-            <ProjectsComponent />
-        </router-view>
     </div>
 </template>
 
