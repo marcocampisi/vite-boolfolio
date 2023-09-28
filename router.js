@@ -1,10 +1,10 @@
-import Vue from 'vue';
 import VueRouter from 'vue-router';
-import App from './src/App.vue';
-import ProjectCard from './src/components/ProjectCard.vue';
+import MainComponent from './src/components/MainComponent.vue';
+import ProjectsComponent from './src/components/ProjectsComponent.vue';
 
 const routes = [
-    { path: '/', component: App},
+    { path: '/', component: MainComponent},
+    { path: '/projects', component: ProjectsComponent},
     { path: '/project/:id', component: ProjectDetails}
 ]
 
