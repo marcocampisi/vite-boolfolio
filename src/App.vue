@@ -5,17 +5,20 @@ import ProjectsComponent from './components/ProjectsComponent.vue';
 
 export default {
     components: {
-    AppHeader,
-    MainComponent,
-    ProjectsComponent
-}
+        AppHeader,
+        MainComponent,
+        ProjectsComponent
+    },
+    props: {
+        router: Object,
+    },
 };
 </script>
 
 <template>
-    <div>
-        <AppHeader></AppHeader>
-        <MainComponent></MainComponent>
+    <div id="app">
+        <AppHeader :router="router"></AppHeader>
+        <router-view></router-view>
     </div>
 </template>
 
